@@ -9,7 +9,7 @@
 . /etc/init.d/functions
 mangoUser=mango
 mangoBin=/opt/mangodb/bin/server.py
-pythonBin=/usr/bin/python2.7
+pythonBin=/usr/bin/python3
 desc="MangoDB daemon"
 outFile="/var/log/mangodb/mangodb.out"
 

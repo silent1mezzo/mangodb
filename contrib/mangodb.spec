@@ -26,7 +26,7 @@ Group: System/Daemons
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
-Requires: python27, /usr/sbin/useradd, /usr/sbin/usermod, /sbin/chkconfig, /sbin/service
+Requires: python38, /usr/sbin/useradd, /usr/sbin/usermod, /sbin/chkconfig, /sbin/service
 Vendor: David Cramer <dcramer@gmail.com>
 Packager: Nathan Milford <nathan@milford.io>
 Provides: MangoDB
